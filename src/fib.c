@@ -10,10 +10,10 @@
 int fib (int n, int p, int pp)
 {
     assert(n>=1);
-    if(n==0){
+    if(n==1){
         return p;
     }
-    else if (n==1){
+    else if (n==2){
         return pp;
     }
     else{
